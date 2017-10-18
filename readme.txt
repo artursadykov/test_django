@@ -1,4 +1,5 @@
-python manage.py makemigrations getdata
+python manage.py runserver
+python manage.py makemigrations note
 python manage.py migrate
 
 python manage.py createsuperuser
